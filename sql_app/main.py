@@ -14,7 +14,7 @@ from .database import SessionLocal, engine
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-token_URL = "https://applifting-python-excercise-ms.herokuapp.com/api/v1"
+token_URL = "hello"
 
 scheduler = BackgroundScheduler()
 
